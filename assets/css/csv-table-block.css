@@ -1,0 +1,61 @@
+table.wp-block-csvblock-table {
+	border-spacing: 1;
+	border-collapse: collapse;
+	background: white;
+	border-radius: 10px;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+table.wp-block-csvblock-table td, table.wp-block-csvblock-table th {
+	padding: 3px 8px;
+}
+
+table.wp-block-csvblock-table thead tr {
+	height: 60px;
+	background: #555d66;
+}
+
+table.wp-block-csvblock-table tbody tr {
+	height: 50px;
+}
+
+table.wp-block-csvblock-table tbody tr:last-child {
+	border: 0;
+}
+
+table.wp-block-csvblock-table td, table th {
+	text-align: left;
+}
+
+table.wp-block-csvblock-table thead th {
+	font-size: 18px;
+	color: #fff;
+	line-height: 1.2;
+	font-weight: unset;
+}
+
+table.wp-block-csvblock-table tbody tr:nth-child(even) {
+	background-color: #f5f5f5;
+}
+
+table.wp-block-csvblock-table tbody tr {
+	font-size: 15px;
+	color: #808080;
+	line-height: 1.2;
+	font-weight: unset;
+}
+
+table.wp-block-csvblock-table tbody tr:hover {
+	color: #555555;
+	background-color: #fafafa;
+	cursor: pointer;
+}
+
+textarea.wp-block-csvblock-table {
+	white-space: nowrap;
+	overflow: auto !important;
+	font-family: monospace !important;
+}
